@@ -7,12 +7,9 @@ function findMatching(drivers, string){
 
 function fuzzyMatch(drivers, string){
   return drivers.filter(n => {
-    if (letter.charAt(0) === n.charAt(0)){
+    if (string.charAt(0) === n.charAt(0)){
     return n
     }
   })
 }
 
-if (letter.charAt(0) === find_name.charAt(0)){
-    return find_name
-    }
