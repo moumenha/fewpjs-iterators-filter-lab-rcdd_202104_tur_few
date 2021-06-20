@@ -13,3 +13,6 @@ function fuzzyMatch(drivers, string){
   })
 }
 
+if (letter.charAt(0) === find_name.charAt(0)){
+    return find_name
+    }
