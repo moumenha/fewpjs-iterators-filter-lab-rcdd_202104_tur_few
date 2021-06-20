@@ -5,5 +5,9 @@ function findMatching(drivers, string){
   });
 }
 
-function
+function fuzzyMatch(drivers, string){
+  return drivers.filter(n => {
+    return (n.)
+  })
+}
 
